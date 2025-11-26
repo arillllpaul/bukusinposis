@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Buku</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Tombol Kembali -->
+        <div class="back-button">
+            <button onclick="window.location.href='nonfiksi.html';">Kembali</button>
+        </div>
+
+        <div class="book-info">
+            <div class="book-header">
+                <div class="book-image">
+                    <img src="gunsteel.jpeg" alt="Sampul Buku">
+                    <h2 class="book-title">Guns, Germs, and Steel</h2>
+                    <h3 class="book-author">Penulis: Jared Diamond</h3>
+                </div>
+                <div class="synopsis">
+                    <h1>Sinopsis</h1>
+                    <p>
+                        *Guns, Germs, and Steel* adalah karya luar biasa dari Jared Diamond yang memenangkan penghargaan Pulitzer. Buku ini membahas mengapa sejarah manusia berkembang berbeda di berbagai belahan dunia. Diamond mengeksplorasi bagaimana faktor lingkungan, geografi,
+                        dan biologi memengaruhi perkembangan masyarakat manusia.
+                    </p>
+                    <p>
+                        Diamond berargumen bahwa perbedaan akses terhadap sumber daya seperti tanaman yang dapat dibudidayakan, hewan peliharaan, dan kondisi geografis yang mendukung pertanian adalah alasan utama mengapa beberapa masyarakat menjadi lebih maju secara teknologi
+                        dibandingkan yang lain. Ia juga menjelaskan peran senjata, kuman penyakit, dan teknologi dalam menaklukkan serta menjajah masyarakat lain, menciptakan ketimpangan global yang masih terasa hingga kini.
+                    </p>
+                    <p>
+                        Dengan pendekatan yang interdisipliner, buku ini menyajikan wawasan mendalam tentang asal-usul kekuasaan dan ketidaksetaraan di dunia. *Guns, Germs, and Steel* memberikan perspektif baru bagi pembaca untuk memahami bagaimana sejarah global dibentuk, tidak
+                        oleh keunggulan biologis atau budaya tertentu, tetapi oleh faktor lingkungan yang kompleks.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review-section">
+                <h2>Review Pembaca</h2>
+                <div class="review-box">
+                    <div class="review-item">
+                        <h3>Andi</h3>
+                        <p>Buku yang membuka wawasan tentang asal-usul ketimpangan global. Penjelasannya sangat mendalam.</p>
+                    </div>
+                    <div class="review-item">
+                        <h3>Siti</h3>
+                        <p>Sebuah karya yang memadukan ilmu pengetahuan dan sejarah dengan cara yang brilian.</p>
+                    </div>
+                </div>
+
+                <div class="review-form">
+                    <h2>Tulis Review Anda</h2>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating:</label>
+                            <select id="rating" name="rating" required>
+                                <option value="5">5 - Sangat Bagus</option>
+                                <option value="4">4 - Bagus</option>
+                                <option value="3">3 - Cukup</option>
+                                <option value="2">2 - Kurang</option>
+                                <option value="1">1 - Sangat Kurang</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review:</label>
+                            <textarea id="review" name="review" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

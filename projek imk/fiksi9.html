@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Buku</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Tombol Kembali -->
+        <div class="back-button">
+            <button onclick="window.location.href='fiksi.html';">Kembali</button>
+        </div>
+
+        <div class="book-info">
+            <div class="book-header">
+                <div class="book-image">
+                    <img src="kretek.jpeg" alt="Sampul Buku">
+                    <h2 class="book-title">Gadis Kretek</h2>
+                    <h3 class="book-author">Penulis: Ratih Kumala</h3>
+                </div>
+                <div class="synopsis">
+                    <h1>Sinopsis</h1>
+                    <p>
+                        *Gadis Kretek* adalah sebuah novel karya *Ratih Kumala* yang mengisahkan tentang perjalanan hidup seorang perempuan muda bernama Siti, yang terlibat dalam dunia kretek (rokok) yang telah menjadi bagian tak terpisahkan dari budaya Indonesia. Siti dibesarkan
+                        dalam keluarga pembuat kretek di Kudus, dan dia memiliki ikatan kuat dengan dunia rokok sejak kecil. Di tengah kehidupan yang penuh dengan tantangan sosial dan budaya, Siti berjuang untuk menemukan jati dirinya dan menghadapi kenyataan
+                        hidup yang penuh ketegangan dan konflik.
+                    </p>
+                    <p>
+                        Novel ini menggambarkan bagaimana industri rokok dan budaya kretek di Indonesia menjadi latar belakang cerita yang kaya akan nilai-nilai tradisi dan modernitas. Siti, sebagai tokoh utama, harus menavigasi peranannya sebagai wanita dalam budaya yang sangat
+                        kental dengan patriarki, sambil berhadapan dengan berbagai tantangan dalam dunia yang didominasi oleh para pria. Konflik-konflik pribadi, sosial, dan budaya yang ia hadapi menjadi bagian dari perjalanan panjang menuju pemahaman
+                        diri.
+                    </p>
+                    <p>
+                        Di samping aspek sosial, *Gadis Kretek* juga menawarkan refleksi tentang cinta, harapan, dan identitas. Melalui kisah hidup Siti yang penuh perjuangan dan dinamika, novel ini membawa pembaca untuk lebih memahami bagaimana sejarah dan budaya mempengaruhi
+                        hidup manusia, serta bagaimana individu bisa bertahan dan berkembang di tengah gejolak zaman. Dengan latar yang kaya dan karakter-karakter yang kuat, buku ini tidak hanya menghibur tetapi juga memberikan wawasan tentang kehidupan
+                        di Indonesia pada masa tersebut.
+                    </p>
+                    <p>
+                        *Gadis Kretek* merupakan sebuah karya yang menggugah, memperkenalkan kehidupan di balik industri rokok Indonesia, serta menggambarkan perjuangan seorang perempuan yang berusaha menemukan tempatnya dalam dunia yang terus berkembang. Novel ini cocok bagi
+                        pembaca yang tertarik dengan kisah-kisah tentang budaya, keluarga, dan pencarian jati diri yang mendalam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review-section">
+                <h2>Review Pembaca</h2>
+                <div class="review-box">
+                    <div class="review-item">
+                        <h3>Ahmad</h3>
+                        <p>Novel yang menggugah pemikiran! Membawa saya untuk lebih memahami budaya Indonesia dan kompleksitas hidup perempuan.</p>
+                    </div>
+                    <div class="review-item">
+                        <h3>Sarah</h3>
+                        <p>Ceritanya sangat menyentuh, dan saya bisa merasakan perjuangan Siti untuk mencari jati diri dalam dunia yang keras.</p>
+                    </div>
+                </div>
+
+                <div class="review-form">
+                    <h2>Tulis Review Anda</h2>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating:</label>
+                            <select id="rating" name="rating" required>
+                                <option value="5">5 - Sangat Bagus</option>
+                                <option value="4">4 - Bagus</option>
+                                <option value="3">3 - Cukup</option>
+                                <option value="2">2 - Kurang</option>
+                                <option value="1">1 - Sangat Kurang</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review:</label>
+                            <textarea id="review" name="review" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

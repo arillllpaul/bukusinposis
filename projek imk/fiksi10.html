@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Buku</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Tombol Kembali -->
+        <div class="back-button">
+            <button onclick="window.location.href='fiksi.html';">Kembali</button>
+        </div>
+
+        <div class="book-info">
+            <div class="book-header">
+                <div class="book-image">
+                    <img src="lautbercerita.jpeg" alt="Sampul Buku">
+                    <h2 class="book-title">Laut Bercerita</h2>
+                    <h3 class="book-author">Penulis: Leila S. Chudori</h3>
+                </div>
+                <div class="synopsis">
+                    <h1>Sinopsis</h1>
+                    <p>
+                        *Laut Bercerita* adalah novel karya Leila S. Chudori yang membawa pembaca dalam perjalanan emosi dan sejarah melalui kisah seorang perempuan bernama Dinda yang hidup di era pasca-Orde Baru di Indonesia. Dalam novel ini, Leila menggambarkan bagaimana sejarah
+                        kelam Indonesia di masa lalu berdampak pada kehidupan para tokoh utama, dengan laut sebagai simbol penghubung antara masa lalu dan masa kini.
+                    </p>
+                    <p>
+                        Cerita berfokus pada perjalanan Dinda yang mencari keberadaan ayahnya, yang hilang tanpa jejak selama masa penjajahan dan konflik politik. Dalam pencariannya, Dinda menggali lebih dalam tentang kehidupan masa lalu ayahnya, yang ternyata terkait erat dengan
+                        perjuangan politik dan kenangan kelam yang ingin ditinggalkan oleh keluarganya. Laut, sebagai tempat yang selalu ada dalam cerita keluarga mereka, menjadi saksi bisu dari peristiwa-peristiwa yang terjadi.
+                    </p>
+                    <p>
+                        *Laut Bercerita* bukan hanya sebuah kisah pencarian keluarga, tetapi juga kisah tentang memori, pengampunan, dan pentingnya mengenal sejarah. Leila S. Chudori menggambarkan dengan indah betapa sulitnya untuk menyingkap kebenaran yang terkubur dalam sejarah,
+                        serta bagaimana perasaan cinta dan kehilangan berinteraksi dalam kehidupan manusia. Novel ini memberi pembaca kesempatan untuk merenungkan bagaimana masa lalu mempengaruhi hidup mereka saat ini.
+                    </p>
+                    <p>
+                        Melalui narasi yang penuh emosi dan kaya akan simbolisme, *Laut Bercerita* mengajak pembaca untuk menyelami kedalaman perasaan dan sejarah, serta merenungkan pentingnya untuk selalu mencari kebenaran meskipun itu menyakitkan. Buku ini menjadi karya yang
+                        mendalam tentang memori kolektif bangsa Indonesia dan cara kita menghadapi masa lalu untuk membangun masa depan.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review-section">
+                <h2>Review Pembaca</h2>
+                <div class="review-box">
+                    <div class="review-item">
+                        <h3>Ahmad</h3>
+                        <p>Novel yang sangat menyentuh! Mengajarkan kita untuk tidak melupakan sejarah dan pentingnya menjaga kenangan.</p>
+                    </div>
+                    <div class="review-item">
+                        <h3>Sarah</h3>
+                        <p>Ceritanya penuh dengan emosi dan simbolisme yang mendalam, sangat menyentuh hati.</p>
+                    </div>
+                </div>
+
+                <div class="review-form">
+                    <h2>Tulis Review Anda</h2>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating:</label>
+                            <select id="rating" name="rating" required>
+                                <option value="5">5 - Sangat Bagus</option>
+                                <option value="4">4 - Bagus</option>
+                                <option value="3">3 - Cukup</option>
+                                <option value="2">2 - Kurang</option>
+                                <option value="1">1 - Sangat Kurang</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review:</label>
+                            <textarea id="review" name="review" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Buku</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Tombol Kembali -->
+        <div class="back-button">
+            <button onclick="window.location.href='nonfiksi.html';">Kembali</button>
+        </div>
+
+        <div class="book-info">
+            <div class="book-header">
+                <div class="book-image">
+                    <img src="deus.jpeg" alt="Sampul Buku">
+                    <h2 class="book-title">Homo Deus</h2>
+                    <h3 class="book-author">Penulis: Yuval Noah Harari</h3>
+                </div>
+                <div class="synopsis">
+                    <h1>Sinopsis</h1>
+                    <p>
+                        *Homo Deus: A Brief History of Tomorrow* adalah buku kedua karya Yuval Noah Harari yang melanjutkan eksplorasi besar tentang masa depan umat manusia. Setelah memaparkan perjalanan panjang manusia dalam buku sebelumnya, *Sapiens*, Harari berfokus pada
+                        pertanyaan yang lebih futuristik dalam *Homo Deus*, yaitu ke mana umat manusia akan pergi di masa depan. Buku ini menggali kemungkinan-kemungkinan tentang evolusi manusia yang akan datang, termasuk kemungkinan manusia menjadi "dewa"
+                        dengan kemampuan teknologi yang luar biasa.
+                    </p>
+                    <p>
+                        Harari membahas berbagai konsep seperti kecerdasan buatan, bioteknologi, dan algoritma yang dapat mengubah cara kita hidup, bekerja, dan bahkan berpikir. Dengan perkembangan teknologi yang sangat pesat, manusia mungkin akan mencapai tingkat kontrol yang
+                        lebih besar atas tubuh dan pikiran mereka. Namun, Harari juga mengingatkan kita bahwa meskipun manusia akan memiliki kemampuan yang lebih besar, tantangan moral dan etika yang lebih kompleks akan muncul.
+                    </p>
+                    <p>
+                        *Homo Deus* bukan hanya buku tentang masa depan, tetapi juga tentang bagaimana kemajuan dalam bidang sains dan teknologi dapat memengaruhi makna kehidupan kita, serta arah yang akan diambil umat manusia. Buku ini mengundang pembaca untuk merenungkan tujuan
+                        dan nilai-nilai manusia di tengah perubahan teknologi yang begitu cepat, dan apakah kita siap untuk menghadapi masa depan yang mungkin tidak sepenuhnya kita pahami.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review-section">
+                <h2>Review Pembaca</h2>
+                <div class="review-box">
+                    <div class="review-item">
+                        <h3>Andi</h3>
+                        <p>Buku yang sangat menggugah pemikiran! Mengajak kita untuk merenungkan tentang masa depan manusia dan dampak teknologi terhadap kehidupan kita.</p>
+                    </div>
+                    <div class="review-item">
+                        <h3>Lisa</h3>
+                        <p>Yuval Harari memberikan perspektif yang luar biasa tentang bagaimana teknologi dapat mengubah manusia dan dunia kita. Penuh wawasan dan pemikiran mendalam.</p>
+                    </div>
+                </div>
+
+                <div class="review-form">
+                    <h2>Tulis Review Anda</h2>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating:</label>
+                            <select id="rating" name="rating" required>
+                                <option value="5">5 - Sangat Bagus</option>
+                                <option value="4">4 - Bagus</option>
+                                <option value="3">3 - Cukup</option>
+                                <option value="2">2 - Kurang</option>
+                                <option value="1">1 - Sangat Kurang</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review:</label>
+                            <textarea id="review" name="review" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
