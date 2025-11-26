@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Buku</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Tombol Kembali -->
+        <div class="back-button">
+            <button onclick="window.location.href='fiksi.html';">Kembali</button>
+        </div>
+
+        <div class="book-info">
+            <div class="book-header">
+                <div class="book-image">
+                    <img src="lordtr.jpeg" alt="Sampul Buku">
+                    <h2 class="book-title">The Lord of the Rings</h2>
+                    <h3 class="book-author">Penulis: J.R.R. Tolkien</h3>
+                </div>
+                <div class="synopsis">
+                    <h1>Sinopsis</h1>
+                    <p>
+                        The Lord of the Rings adalah sebuah epik fantasi karya *J.R.R. Tolkien* yang menceritakan perjalanan heroik Frodo Baggins, seorang hobbit muda yang harus menghancurkan cincin ajaib yang memiliki kekuatan besar dan berbahaya. Cincin tersebut diciptakan
+                        oleh Dark Lord Sauron untuk menguasai seluruh dunia. Dalam perjalanannya, Frodo dibantu oleh sekelompok teman setia, termasuk Samwise Gamgee, Aragorn, Legolas, Gimli, dan Gandalf, seorang penyihir yang bijaksana.
+                    </p>
+                    <p>
+                        Petualangan mereka dimulai di Shire, sebuah desa damai tempat tinggal Frodo, yang kemudian berubah menjadi perjalanan epik yang penuh bahaya. Mereka harus melewati wilayah yang penuh dengan ancaman, baik dari pasukan Sauron maupun makhluk-makhluk jahat
+                        seperti Ork dan Nazgûl. Mereka juga harus menghadapi pengkhianatan dan godaan dari kekuatan cincin, yang dapat menghancurkan persahabatan dan merusak jiwa siapa saja yang menguasainya.
+                    </p>
+                    <p>
+                        Sementara Frodo dan teman-temannya berusaha untuk menghancurkan cincin, peperangan besar juga terjadi di dunia manusia, di mana kerajaan-kerajaan yang sebelumnya terpecah bersatu untuk melawan Sauron. Perjuangan untuk menyelamatkan Middle-earth ini membawa
+                        para tokoh ke medan perang, menguji keberanian, kesetiaan, dan ketahanan mereka. Konflik antara terang dan gelap, kebaikan dan kejahatan, menjadi tema utama dalam cerita ini.
+                    </p>
+                    <p>
+                        *The Lord of the Rings* adalah kisah tentang harapan, pengorbanan, dan keberanian. Dengan dunia yang kaya akan mitologi, sejarah, dan karakter-karakter yang mendalam, novel ini telah menjadi karya klasik yang menginspirasi pembaca di seluruh dunia. Sebagai
+                        salah satu karya sastra terbesar abad ke-20, cerita ini tidak hanya memikat dengan petualangannya, tetapi juga dengan pesan moral yang mendalam tentang kekuatan persahabatan dan pentingnya memilih jalan yang benar meskipun harus
+                        menghadapi kesulitan yang luar biasa.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review-section">
+                <h2>Review Pembaca</h2>
+                <div class="review-box">
+                    <div class="review-item">
+                        <h3>Ahmad</h3>
+                        <p>Sebuah karya yang luar biasa! Menyuguhkan petualangan yang menegangkan dan karakter yang kuat.</p>
+                    </div>
+                    <div class="review-item">
+                        <h3>Sarah</h3>
+                        <p>Cerita ini penuh dengan nilai-nilai kebersamaan dan keberanian yang menginspirasi.</p>
+                    </div>
+                </div>
+
+                <div class="review-form">
+                    <h2>Tulis Review Anda</h2>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating:</label>
+                            <select id="rating" name="rating" required>
+                                <option value="5">5 - Sangat Bagus</option>
+                                <option value="4">4 - Bagus</option>
+                                <option value="3">3 - Cukup</option>
+                                <option value="2">2 - Kurang</option>
+                                <option value="1">1 - Sangat Kurang</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review:</label>
+                            <textarea id="review" name="review" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

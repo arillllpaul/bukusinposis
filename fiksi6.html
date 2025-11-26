@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Buku</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Tombol Kembali -->
+        <div class="back-button">
+            <button onclick="window.location.href='fiksi.html';">Kembali</button>
+        </div>
+
+        <div class="book-info">
+            <div class="book-header">
+                <div class="book-image">
+                    <img src="cantikituluka.jpeg" alt="Sampul Buku">
+                    <h2 class="book-title">Ayat ayat cinta</h2>
+                    <h3 class="book-author">Penulis: Eka kurniawan</h3>
+                </div>
+                <div class="synopsis">
+                    <h1>Sinopsis</h1>
+                    <p>
+                        "Cantik Itu Luka" adalah novel fenomenal karya Eka Kurniawan yang memadukan realisme magis dengan sejarah kelam Indonesia. Cerita ini dimulai dengan kebangkitan Dewi Ayu, seorang perempuan cantik yang kembali dari kematiannya setelah 21 tahun. Kisah ini
+                        mengungkap kehidupan Dewi Ayu, seorang pelacur terkenal, serta nasib tragis anak-anaknya yang penuh dengan konflik, dendam, dan cinta yang rumit.
+                    </p>
+                    <p>
+                        Melalui tokoh Dewi Ayu, novel ini menggambarkan bagaimana kecantikan, yang sering dianggap sebagai anugerah, justru menjadi kutukan. Anak bungsunya, yang dinamai "Si Cantik" namun dilahirkan buruk rupa, menjadi simbol dari perlawanan Dewi Ayu terhadap
+                        nasib buruk yang terus menghantui keluarganya. Di tengah latar sejarah penjajahan, revolusi, dan kekerasan di Indonesia, setiap tokoh membawa cerita yang memperlihatkan sisi gelap kemanusiaan, mulai dari pengkhianatan, nafsu, hingga
+                        perjuangan untuk bertahan hidup. Dengan gaya bahasa yang indah namun penuh ironi, Eka Kurniawan menciptakan cerita yang menggugah perasaan dan pemikiran. "Cantik Itu Luka" bukan sekadar novel tentang tragedi keluarga, tetapi juga
+                        refleksi mendalam tentang kecantikan, kekuasaan, dan sejarah yang membentuk jiwa manusia. Novel ini menjadi karya monumental yang mengangkat sastra Indonesia ke kancah dunia.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review-section">
+                <h2>Review Pembaca</h2>
+                <div class="review-box">
+                    <div class="review-item">
+                        <h3>Ahmad</h3>
+                        <p>Buku yang sangat menginspirasi! Mengajarkan bahwa keterbatasan bukan halangan untuk meraih mimpi.</p>
+                    </div>
+                    <div class="review-item">
+                        <h3>Sarah</h3>
+                        <p>Ceritanya mengharukan dan membuat kita bersyukur dengan apa yang kita miliki sekarang.</p>
+                    </div>
+                </div>
+
+                <div class="review-form">
+                    <h2>Tulis Review Anda</h2>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating:</label>
+                            <select id="rating" name="rating" required>
+                                <option value="5">5 - Sangat Bagus</option>
+                                <option value="4">4 - Bagus</option>
+                                <option value="3">3 - Cukup</option>
+                                <option value="2">2 - Kurang</option>
+                                <option value="1">1 - Sangat Kurang</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review:</label>
+                            <textarea id="review" name="review" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

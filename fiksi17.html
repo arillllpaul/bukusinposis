@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Buku Hujan</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Tombol Kembali -->
+        <div class="back-button">
+            <button onclick="window.location.href='fiksi.html';">Kembali</button>
+        </div>
+
+        <div class="book-info">
+            <div class="book-header">
+                <div class="book-image">
+                    <img src="hujan.jpeg" alt="Sampul Buku Hujan">
+                    <h2 class="book-title">Hujan</h2>
+                    <h3 class="book-author">Penulis: Tere Liye</h3>
+                </div>
+                <div class="synopsis">
+                    <h1>Sinopsis</h1>
+                    <p>
+                        *Hujan* adalah sebuah novel karya Tere Liye yang mengisahkan kisah cinta, kehilangan, dan perjalanan hidup seorang pria bernama Awan. Awan adalah seorang pria yang hidup dalam kesendirian dan penuh rasa kesepian. Kehidupannya berubah ketika ia bertemu
+                        dengan seorang wanita bernama Hujan, yang memberikan makna baru dalam hidupnya.
+                    </p>
+                    <p>
+                        Cerita ini menggambarkan bagaimana pertemuan dan perpisahan bisa mengubah kehidupan seseorang. Novel ini juga berbicara tentang keinginan untuk mencari kebahagiaan dalam hidup dan bagaimana kita menghadapinya dengan berbagai cara. Seperti hujan yang datang
+                        tanpa diduga, kehidupan seringkali datang dengan hal-hal tak terduga yang harus kita hadapi.
+                    </p>
+                    <p>
+                        Dengan gaya bahasa yang indah dan penuh makna, Tere Liye berhasil menyentuh hati pembaca melalui kisah *Hujan*, yang penuh dengan pesan-pesan kehidupan yang mendalam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review-section">
+                <h2>Review Pembaca</h2>
+                <div class="review-box">
+                    <div class="review-item">
+                        <h3>Maria</h3>
+                        <p>Sebuah karya klasik yang penuh makna. Setiap karakter memiliki kedalaman dan perannya sendiri dalam cerita.</p>
+                    </div>
+                    <div class="review-item">
+                        <h3>Rahmat</h3>
+                        <p>Drama ini menunjukkan bahwa kekuatan sejati adalah memaafkan. Sangat inspiratif!</p>
+                    </div>
+                </div>
+
+                <div class="review-form">
+                    <h2>Tulis Review Anda</h2>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating:</label>
+                            <select id="rating" name="rating" required>
+                                <option value="5">5 - Sangat Bagus</option>
+                                <option value="4">4 - Bagus</option>
+                                <option value="3">3 - Cukup</option>
+                                <option value="2">2 - Kurang</option>
+                                <option value="1">1 - Sangat Kurang</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Review:</label>
+                            <textarea id="review" name="review" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
